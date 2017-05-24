@@ -1,0 +1,5 @@
+---
+applications:
+- name:    wdgtour
+  host:    wdgtour
+  memory:  128M
