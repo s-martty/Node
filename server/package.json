@@ -1,0 +1,20 @@
+{
+  "name": "wdg-server-test",
+  "version": "0.0.0",
+  "dependencies": {
+    "cf-deployment-tracker-client": "*",
+    "commander": "^2.6.0",
+    "url": "*",
+    "debug": "*",
+    "http": "*",
+    "winston": "*"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://s-martty/Node/server/server.git"
+  }
+}

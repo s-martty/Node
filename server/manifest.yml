@@ -1,0 +1,5 @@
+---
+applications:
+- name:    wdg-server-test
+  host:    wdg-server-test
+  memory:  32M

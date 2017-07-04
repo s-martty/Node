@@ -6,7 +6,7 @@ var  server= new http.Server(require('./request'));
 
 
 server.listen(8080, 'localhost');
-debug('Server started...');
+debug('Server get started...');
 
 /*var emit = server.emit;
 server.emit = function(event){;//
