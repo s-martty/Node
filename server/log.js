@@ -9,7 +9,7 @@ module.exports = function (module){
             new winston.transports.Console({
                 timestamp: true,
                 colorized: true,
-                level: 'info'
+                level: 'info debug'
                 }),
             new winston.transports.File({
                 filename: 'debug.log',

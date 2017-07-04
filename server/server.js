@@ -5,7 +5,7 @@ var debug = require('debug')('server');
 var  server= new http.Server(require('./request'));
 
 
-server.listen(1888,'127.0.0.1');
+server.listen(8080, 'localhost');
 debug('Server started...');
 
 /*var emit = server.emit;
